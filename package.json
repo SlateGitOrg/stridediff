@@ -1,0 +1,12 @@
+{
+  "name": "stridediff",
+  "version": "0.1.0",
+  "description": "Architecture-as-code with a STRIDE delta on every pull request, so the threat model stops being a document written once.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.ts"
+  }
+}
