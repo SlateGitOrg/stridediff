@@ -1,8 +1,6 @@
 /**
  * Architecture as code, and STRIDE derived from it.
  *
- * THE DIFFERENTIATOR LIVES HERE.
- *
  * A threat model is written once during design review, the architecture then
  * changes forty times, and the document is never touched again. Security review
  * becomes a calendar event: it happens when nothing is being built, and the

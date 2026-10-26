@@ -26,7 +26,7 @@ export const BASE: Model = {
 export interface Mutation {
   readonly name: string;
   readonly model: Model;
-  /** Expected NEW threat ids. Written down before the rule engine was built. */
+  /** Expected NEW threat ids. Fixed by hand, independent of the rule engine. */
   readonly expectAdded: readonly string[];
   /** Threats that already existed and got worse. */
   readonly expectEscalated?: readonly string[];
